@@ -7,17 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Ly-gateway" />
-        <module name="ly-upload" />
-        <module name="ly-page" />
+        <module name="ly-user-service" />
+        <module name="ly-user-interface" />
+        <module name="ly-autn-service" />
+        <module name="ly-cart" />
         <module name="ly-common" />
+        <module name="ly-auth-common" />
+        <module name="ly-upload" />
+        <module name="ly-registry" />
         <module name="ly-item-interface" />
         <module name="ly-serach" />
         <module name="ly-item-service" />
-        <module name="ly-registry" />
+        <module name="ly-page" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="leyou" target="1.8" />
+      <module name="ly-auth-center" target="1.8" />
+      <module name="ly-auth-common" target="1.8" />
+      <module name="ly-autn-service" target="1.8" />
+      <module name="ly-cart" target="1.8" />
       <module name="ly-common" target="1.8" />
       <module name="Ly-gateway" target="1.8" />
       <module name="ly-item" target="1.8" />
@@ -28,11 +37,18 @@
       <module name="ly-search" target="1.8" />
       <module name="ly-serach" target="1.8" />
       <module name="ly-upload" target="1.8" />
+      <module name="ly-user" target="1.8" />
+      <module name="ly-user-interface" target="1.8" />
+      <module name="ly-user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Ly-gateway" options="-parameters" />
+      <module name="ly-auth-center" options="-parameters" />
+      <module name="ly-auth-common" options="-parameters" />
+      <module name="ly-autn-service" options="-parameters" />
+      <module name="ly-cart" options="-parameters" />
       <module name="ly-common" options="-parameters" />
       <module name="ly-item-interface" options="-parameters" />
       <module name="ly-item-service" options="-parameters" />
@@ -41,6 +57,9 @@
       <module name="ly-search" options="-parameters" />
       <module name="ly-serach" options="-parameters" />
       <module name="ly-upload" options="-parameters" />
+      <module name="ly-user" options="-parameters" />
+      <module name="ly-user-interface" options="-parameters" />
+      <module name="ly-user-service" options="-parameters" />
     </option>
   </component>
 </project>

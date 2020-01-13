@@ -5,9 +5,11 @@ import com.hp.client.CategoryClient;
 import com.hp.client.GoodsClient;
 import com.hp.client.SpecClient;
 import com.hp.pojo.Goods;
+import com.hp.repository.GoodsREpository;
 import com.leyou.item.bo.SpuBo;
 import com.leyou.item.pojo.Sku;
 import com.leyou.item.pojo.SpecParam;
+import com.leyou.item.pojo.Spu;
 import com.leyou.item.pojo.SpuDetail;
 import com.leyou.util.JsonUtils;
 import org.apache.commons.lang.StringUtils;
@@ -27,6 +29,8 @@ public class IndexService {
     private GoodsClient goodsClient;
     @Autowired
     private SpecClient specClient;
+    @Autowired
+    private GoodsREpository goodsREpository;
 
     public Goods buildGoods(SpuBo spuBo) {
         Goods goods = new Goods();
@@ -140,5 +144,21 @@ public class IndexService {
             }
         }
         return result;
+    }
+
+    public void createIndex(Long id) {
+        //查询spu
+        Spu spu=goodsClient.querySpuById(id);
+        SpuBo spuBo=new SpuBo();
+        BeanUtils.copyProperties(spu,spuBo);
+        Goods goods=this.buildGoods(spuBo);
+        //更新索引
+        this.goodsREpository.save(goods);
+
+
+    }
+
+    public void deleteIndex(Long id) {
+        this.goodsREpository.deleteById(id);
     }
 }

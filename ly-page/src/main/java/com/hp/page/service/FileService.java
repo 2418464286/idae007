@@ -51,4 +51,9 @@ private  String destPath;
 
 
     }
+
+    public void deleteHtml(Long id) {
+       File file= new File(destPath,id+".html");
+        file.deleteOnExit();
+    }
 }

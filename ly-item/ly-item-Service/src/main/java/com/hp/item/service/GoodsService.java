@@ -7,6 +7,8 @@ import com.leyou.item.bo.SpuBo;
 import com.leyou.item.pojo.*;
 import com.leyou.po.PageResult;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.amqp.core.AmqpAdmin;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +28,8 @@ import java.util.List;
 public class GoodsService {
     @Autowired
     private SpuMapper spuMapper;
-
+    @Autowired
+    private AmqpTemplate amqpTemplate;
     @Autowired
     private SpuDetailMapper spuDetailMapper;
 
@@ -99,7 +102,8 @@ public class GoodsService {
         List<Sku> skus = spuBo.getSkus();
         //保存sku和stock
         saveSkus(spuBo,skus);
-
+//发送消息的方法
+         sendMessage(id,"insert");
 
     }
 
@@ -165,5 +169,12 @@ public class GoodsService {
         }
         //新增
         saveSkus(spuBo,spuBo.getSkus());
+
+        sendMessage(id,"update");
+    }
+    //发送方消息的方法
+    public void  sendMessage(Long id,String type){
+        this.amqpTemplate.convertAndSend("item."+type,id);
+        //item.insert routerkey
     }
 }

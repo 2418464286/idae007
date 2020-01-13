@@ -1,12 +1,15 @@
 server:
   port: 8084
 spring:
+  rabbitmq:
+    host: 192.168.228.100
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
   application:
     name: goods-page
-  data:
-    elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: 192.168.228.100:9300
+  thymeleaf:
+    cache: false
 eureka:
   client:
     service-url:

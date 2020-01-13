@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ly-gateway/Ly-gateway.iml" filepath="$PROJECT_DIR$/Ly-gateway/Ly-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/leyou.iml" filepath="$PROJECT_DIR$/leyou.iml" group="leyou" />
+      <module fileurl="file://$PROJECT_DIR$/ly-auth-center/ly-auth-center.iml" filepath="$PROJECT_DIR$/ly-auth-center/ly-auth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-auth-center/ly-auth-common/ly-auth-common.iml" filepath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/ly-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-auth-center/ly-autn-service/ly-autn-service.iml" filepath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/ly-autn-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-cart/ly-cart.iml" filepath="$PROJECT_DIR$/ly-cart/ly-cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-common/ly-common.iml" filepath="$PROJECT_DIR$/ly-common/ly-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item.iml" filepath="$PROJECT_DIR$/ly-item/ly-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" filepath="$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" />
@@ -12,6 +16,9 @@
       <module fileurl="file://$PROJECT_DIR$/ly-registry/ly-registry.iml" filepath="$PROJECT_DIR$/ly-registry/ly-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-serach/ly-serach.iml" filepath="$PROJECT_DIR$/ly-serach/ly-serach.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-upload/ly-upload.iml" filepath="$PROJECT_DIR$/ly-upload/ly-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-user/ly-user.iml" filepath="$PROJECT_DIR$/ly-user/ly-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-user/ly-user-interface/ly-user-interface.iml" filepath="$PROJECT_DIR$/ly-user/ly-user-interface/ly-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-user/ly-user-service/ly-user-service.iml" filepath="$PROJECT_DIR$/ly-user/ly-user-service/ly-user-service.iml" />
     </modules>
   </component>
 </project>

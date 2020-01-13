@@ -2,6 +2,7 @@ package com.hp.client;
 
 import com.leyou.item.bo.SpuBo;
 import com.leyou.item.pojo.Sku;
+import com.leyou.item.pojo.Spu;
 import com.leyou.item.pojo.SpuDetail;
 import com.leyou.po.PageResult;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -29,5 +30,6 @@ public interface GoodsClient {
 
     @PutMapping
     public Void updateGoods(@RequestBody SpuBo spuBo);
-
+    @GetMapping("spu/{id}")
+    public Spu querySpuById(@PathVariable("id") Long spuId );
 }
