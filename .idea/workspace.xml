@@ -2,84 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="807b0685-95b5-4392-9b80-69206f6680c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ly-gateway/src/main/java/com/hp/gateway/config/FilterProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ly-gateway/src/main/java/com/hp/gateway/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ly-gateway/src/main/java/com/hp/gateway/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-center.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/ly-auth-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/hp/auth/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/hp/auth/utils/JwtConstans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/hp/auth/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/hp/auth/utils/ObjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/hp/auth/utils/RsaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/test/java/com/leyou/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/ly-autn-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/src/main/java/com/hp/LyAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/src/main/java/com/hp/auth/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/src/main/java/com/hp/auth/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/src/main/java/com/hp/auth/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/src/main/java/com/hp/auth/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-autn-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-auth-center/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-cart/ly-cart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/LyCartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-interface/ly-user-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-interface/src/main/java/com/hp/user/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/ly-user-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/hp/LyUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/hp/user/Utils/CodecUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/hp/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/hp/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/hp/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/test/java/com/hp/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/ly-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/LyOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/IdWorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/IdWorkerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/PayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/PayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/api/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/utils/PayHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/utils/PayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/LyOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/IdWorkerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/IdWorkerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/PayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/PayProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/mapper/OrderStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/pojo/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/pojo/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/service/api/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/utils/PayHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/utils/PayState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/mapper/OrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ly-gateway/Ly-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ly-gateway/Ly-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ly-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ly-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ly-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Ly-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-Service/ly-item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-Service/ly-item-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/java/com/hp/item/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/java/com/hp/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/java/com/hp/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/java/com/hp/item/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/java/com/hp/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/java/com/hp/item/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-Service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-page/ly-page.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-page/ly-page.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-page/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-page/src/main/java/com/hp/page/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-page/src/main/java/com/hp/page/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-page/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-page/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-serach/ly-serach.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-serach/ly-serach.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-serach/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-serach/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-serach/src/main/java/com/hp/client/GoodsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-serach/src/main/java/com/hp/client/GoodsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-serach/src/main/java/com/hp/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-serach/src/main/java/com/hp/service/IndexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-serach/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-serach/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/hp/service/CartService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,11 +157,11 @@
       <recent name="F:\leyou\ly-search\src\main\java\com.hp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Team\leyou\ly-cart\src\main\java\com\hp\config" />
+      <recent name="F:\Team\leyou\ly-cart\src\main\java\com\hp\interceptors" />
+      <recent name="F:\Team\leyou\ly-cart\src\main\java\com\hp\pojo" />
+      <recent name="F:\Team\leyou\ly-cart\src\main\java\com\hp\service" />
+      <recent name="F:\Team\leyou\ly-cart\src\main\java\com\hp\controller" />
       <recent name="F:\Team\leyou\ly-cart\src\main\java\com\hp" />
-      <recent name="F:\Team\leyou\ly-cart\src\main\resources" />
-      <recent name="F:\Team\leyou\Ly-gateway\src\main\java\com\hp\gateway\config" />
-      <recent name="F:\Team\leyou\ly-auth-center\ly-autn-service\src\main\java\com\hp\auth\client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,6 +182,13 @@
     <configuration name="LyAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-autn-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hp.LyAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hp.LyCartApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,7 +307,8 @@
       <workItem from="1578643737355" duration="6500000" />
       <workItem from="1578723330350" duration="28000" />
       <workItem from="1578723451591" duration="4845000" />
-      <workItem from="1578879010842" duration="5627000" />
+      <workItem from="1578879010842" duration="6576000" />
+      <workItem from="1578986763496" duration="3525000" />
     </task>
     <task id="LOCAL-00001" summary="随意且不愉快的提交">
       <created>1578470686522</created>
@@ -343,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578471236896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="随意且不愉快的提交">
+      <created>1578918281175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578918281175</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,10 +351,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="799" y="275" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1578917842153" />
-    <state x="978" y="281" key="#com.intellij.ide.util.MemberChooser" timestamp="1578908615433">
+    <state x="978" y="281" key="#com.intellij.ide.util.MemberChooser" timestamp="1578988487292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="978" y="281" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1578908615433" />
+    <state x="978" y="281" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1578988487292" />
     <state x="890" y="486" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578723669666">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -379,10 +367,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="849" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578645243913" />
-    <state x="642" y="118" key="CommitChangelistDialog2" timestamp="1578471234420">
+    <state x="376" y="118" key="CommitChangelistDialog2" timestamp="1578918278268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="642" y="118" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578471234420" />
+    <state x="376" y="118" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578918278268" />
     <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1578723686511">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -439,30 +427,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578907382686" />
-    <state x="769" y="248" key="Vcs.Push.Dialog.v2" timestamp="1578471240060">
+    <state x="769" y="248" key="Vcs.Push.Dialog.v2" timestamp="1578918295947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="769" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1578471240060" />
+    <state x="769" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1578918295947" />
     <state x="919" y="289" key="chooseDestDirectoryDialog" timestamp="1578388351823">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="919" y="289" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578388351823" />
-    <state x="652" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1578879011541">
+    <state x="652" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1578986763978">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="652" y="368" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578879011541" />
+    <state x="652" y="368" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578986763978" />
     <state x="331" y="222" width="1251" height="608" key="new project wizard" timestamp="1578917761218">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="331" y="222" width="1251" height="608" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1578917761218" />
-    <state x="548" y="313" key="run.anything.popup" timestamp="1578909352753">
+    <state x="548" y="313" key="run.anything.popup" timestamp="1578989320848">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="548" y="313" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578909352753" />
-    <state x="1032" y="324" width="672" height="678" key="search.everywhere.popup" timestamp="1578646904991">
+    <state x="548" y="313" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578989320848" />
+    <state x="1032" y="324" width="672" height="678" key="search.everywhere.popup" timestamp="1578988389137">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1032" y="324" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578646904991" />
+    <state x="1032" y="324" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578988389137" />
     <state x="1007" y="317" key="svn.repositoryBrowser" timestamp="1578470317156">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

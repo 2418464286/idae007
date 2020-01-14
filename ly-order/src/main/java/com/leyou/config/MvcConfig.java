@@ -1,14 +1,13 @@
-package com.hp.config;
+package com.leyou.config;
 
-
-import com.hp.interceptors.LoginInterceptor;
+import com.leyou.order.interceptor.LoginInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
 
 @Configuration
 @EnableConfigurationProperties(JwtProperties.class)
@@ -24,6 +23,7 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(loginInterceptor()).addPathPatterns("/**");
+        registry.addInterceptor(loginInterceptor())
+                .addPathPatterns("/order/**");
     }
 }
